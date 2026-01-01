@@ -1,0 +1,45 @@
+WINPATCH RAPID TRIAGE KIT — COMMERCIAL LICENSE (TEMPLATE)
+Version: 1.1.0
+
+IMPORTANT: This is a plain-language license template (not legal advice).
+
+1) GRANT
+You are granted a non-exclusive, non-transferable license to use this software internally for your own IT operations.
+If you are an MSP, "internal" includes performing work for your clients as part of your managed services.
+
+2) PERMITTED COPIES
+You may make reasonable copies for backup and deployment to your own endpoints.
+
+3) RESTRICTIONS
+You may not:
+- resell, repackage, sublicense, or distribute this software (in source or compiled form) to third parties
+- publish it publicly (e.g., GitHub) in a way that enables others to obtain it without a license
+
+4) SUPPORT
+Support terms are defined by your purchase invoice/statement. No guarantees of response time unless explicitly stated.
+
+5) DISCLAIMER / LIMITATION
+THIS SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+You are responsible for testing in a safe environment before production use.
+The author is not liable for damages arising from use or inability to use this software.
+
+6) PRIVACY
+The tool may collect diagnostic information (OS/build, installed KBs, event logs, etc.) and package it into a ZIP.
+Review the ZIP contents before sharing externally. Use -Redact and the Export-SupportBundle switches to reduce data.
+
+(c) 2025 ReactedHQ. All rights reserved.
+
+
+Support: deemmanymg@gmail.com
+
+
+LICENSE TIERS (Recommended pricing)
+- SOLO TECH LICENSE ($49): Use by 1 individual technician, unlimited client endpoints.
+- STANDARD LICENSE ($99): Use by up to 3 technicians within one business, unlimited endpoints.
+- MSP TEAM LICENSE ($249): Use by up to 10 technicians within one business, unlimited endpoints.
+
+All tiers: No redistribution, no resale, no public posting (e.g., GitHub).
+Support: deemmanymg@gmail.com
+
+
+Activation (optional): run ACTIVATE_LICENSE.ps1 to create license.json using your receipt ID. Usage is not blocked without activation.

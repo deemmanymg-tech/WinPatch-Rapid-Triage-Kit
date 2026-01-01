@@ -1,0 +1,17 @@
+ReactedHQ — WinPatch Rapid Triage Kit (v1.6.1)
+
+EASIEST START (NO typing):
+1) Unzip the download
+2) Double-click: DOUBLE_CLICK_ME.cmd
+   (It will ask for Administrator via UAC for best results.)
+3) When finished, the HTML report opens automatically.
+
+OUTPUTS:
+- If you start via DOUBLE_CLICK_ME.cmd / RUN_ME_FIRST.ps1: saved to Desktop\ReactedHQ_WinPatch_Output\<timestamp>\
+- If you run WinPatchTriage.ps1 directly: default is .\WinPatchTriage_Output (or whatever you pass via -OutputDir)
+- The output folder path is printed and copied to your clipboard automatically.
+
+Need help?
+Email deemmanymg@gmail.com and follow SUPPORT_INTAKE.md.
+Best attachment: support_bundle.zip
+Tip: run COPY_SUPPORT_EMAIL.ps1 to copy a ready-to-paste email body.

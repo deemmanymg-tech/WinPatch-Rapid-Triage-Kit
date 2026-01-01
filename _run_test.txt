@@ -1,0 +1,58 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251231180912
+Username: AI\AIAli
+RunAs User: AI\AIAli
+Configuration Name: 
+Machine: AI (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command $repo = 'C:\Users\AIAli\OneDrive\Desktop\ReactedHQ_WinPatchRapidTriageKit_v1_6_1\WinPatchRapidTriageKit_v1_1'
+Set-Location $repo
+$ErrorActionPreference = 'Continue'
+Start-Transcript -Path (Join-Path $repo '_run_test.txt') -Force
+.\WinPatchTriage.ps1 -OutputDir .\test_out -CollectorLevel Lite -Customer TestOrg -Ticket INC-0001 -NoZip
+$runExit = $LASTEXITCODE
+Stop-Transcript
+$runExit
+Process ID: 2900
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\AIAli\OneDrive\Desktop\ReactedHQ_WinPatchRapidTriageKit_v1_6_1\WinPatchRapidTriageKit_v1_1\_run_test.txt
+2025-12-31T18:09:13.8256810-05:00 [INFO] Preflight: Admin=False PS=5.1.26100.7462 Level=Lite
+PS>TerminatingError(Get-WindowsOptionalFeature): "The requested operation requires elevation.
+"
+2025-12-31T18:09:23.9543752-05:00 [INFO] CollectorLevel=Lite: skipping EVTX export.
+if : The term 'if' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\AIAli\OneDrive\Desktop\ReactedHQ_WinPatchRapidTriageKit_v1_6_1\WinPatchRapidTriageKit_v1_1\WinPatchTriage.ps
+1:496 char:51
++     <div><strong>Service</strong>: $(Html-Escape (if($msmq.Service){  ...
++                                                   ~~
+    + CategoryInfo          : ObjectNotFound: (if:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+if : The term 'if' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\AIAli\OneDrive\Desktop\ReactedHQ_WinPatchRapidTriageKit_v1_6_1\WinPatchRapidTriageKit_v1_1\WinPatchTriage.p
+s1:496 char:51
++     <div><strong>Service</strong>: $(Html-Escape (if($msmq.Service){  ...
++                                                   ~~
+    + CategoryInfo          : ObjectNotFound: (if:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+[OK] WinPatch triage completed.
+Output: C:\Users\AIAli\OneDrive\Desktop\ReactedHQ_WinPatchRapidTriageKit_v1_6_1\WinPatchRapidTriageKit_v1_1\test_out
+ - report.html
+ - report.json
+
+Tip: Run PowerShell as Administrator for more complete log exports.
+**********************
+Windows PowerShell transcript end
+End time: 20251231180924
+**********************
